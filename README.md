@@ -1,5 +1,5 @@
 # Lama Dev School Management Dashboard
-# https://www.youtube.com/watch?v=myYlGLFxZas&t=473s
+# https://youtu.be/myYlGLFxZas?t=1819
 
 ## Getting Started
 
