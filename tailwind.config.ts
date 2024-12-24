@@ -13,6 +13,14 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        erdoSky: "#C3EBFA",
+        erdoLight: "#EDF9FD",
+        erdoPurple: "#CFCEFF",
+        erdoPurpleLight: "#F1F0FF",
+        erdoYellow: "#FAE27C",
+        erdoYelloLight: "#FEFCE8"
+      }
     },
   },
   plugins: [],
