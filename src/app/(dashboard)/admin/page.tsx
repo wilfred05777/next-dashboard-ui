@@ -1,5 +1,6 @@
 import AttedanceChart from '@/components/AttedanceChart'
 import CountChart from '@/components/CountChart'
+import FinanceChart from '@/components/FinanceChart'
 import UserCard from '@/components/UserCard'
 import React from 'react'
 
@@ -27,8 +28,8 @@ const AdminPage = () => {
           </div>
         </div>
         {/* BOTTOM CHARTS */}
-        <div className="flex justify-center">
-
+        <div className="w-full h-[500px]">
+          <FinanceChart/>
         </div>
       </div>
       {/* right */}
