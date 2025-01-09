@@ -15,11 +15,11 @@ const config: Config = {
       },
       colors: {
         erdoSky: "#C3EBFA",
-        erdoLight: "#EDF9FD",
+        erdoSkyLight: "#EDF9FD",
         erdoPurple: "#CFCEFF",
         erdoPurpleLight: "#F1F0FF",
         erdoYellow: "#FAE27C",
-        erdoYelloLight: "#FEFCE8"
+        erdoYellowLight: "#FEFCE8"
       }
     },
   },
