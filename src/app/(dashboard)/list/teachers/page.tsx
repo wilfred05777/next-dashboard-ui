@@ -1,10 +1,11 @@
+import Pagination from '@/components/Pagination'
 import TableSearch from '@/components/TableSearch'
 import Image from 'next/image'
 import React from 'react'
 
 const TeacherListPage = () => {
   return (
-    <div className='container h-fit bg-white p-4 rounded-md flex-1 m-4 mt-0'>
+    <div className='container h-full bg-white p-4 rounded-md flex-1 m-4 mt-0'>
           {/* Teachers Pages */}
           {/* TOP */}
           <div className="flex items-center justify-between">
@@ -23,7 +24,8 @@ const TeacherListPage = () => {
           <div className="flex"></div>
 
           {/* Pagination */}
-          <div className="flex"></div>
+          <Pagination/>
+    
     </div>
   )
 }
