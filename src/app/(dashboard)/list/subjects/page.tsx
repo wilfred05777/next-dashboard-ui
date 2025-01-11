@@ -2,7 +2,9 @@ import React from 'react'
 
 const SubjectsListPage = () => {
   return (
-    <div>SubjectsListPage</div>
+      <div className=''>SubjectsListPage
+        
+      </div>
   )
 }
 
