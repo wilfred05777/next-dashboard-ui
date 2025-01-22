@@ -12,9 +12,9 @@ type Student = {
    name: string;
    email?: string;
    photo: string;
-   phone: string;
-   classes: string[];
-   subjects: string[];
+   phone?: string;
+   grade: number;
+   class: string;
    address: string;
 };
 
@@ -25,18 +25,13 @@ const columns = [
       // classname: "hidden md:table-cell"
    },
    {
-      header: "Teacher ID",
-      accessor: "teaceherId",
+      header: "Student ID",
+      accessor: "studentId",
       classname: "hidden md:table-cell",
    },
    {
-      header: "Subjects",
-      accessor: "subjects",
-      classname: "hidden md:table-cell",
-   },
-   {
-      header: "Classes",
-      accessor: "classes",
+      header: "Grade",
+      accessor: "grade",
       classname: "hidden md:table-cell",
    },
    {
@@ -72,12 +67,11 @@ const StudentListPage = () => {
             />
             <div className='flex flex-col gap-1'>
                <h3 className='font-semibold'>{item.name}</h3>
-               <p className='text-xs text-gray-500'>{item?.email}</p>
+               <p className='text-xs text-gray-500'>{item?.class}</p>
             </div>
          </td>
          <td className='hidden md:table-cell'>{item.studentId}</td>
-         <td className='hidden md:table-cell'>{item.subjects.join(", ")}</td>
-         <td className='hidden md:table-cell'>{item.classes.join(", ")}</td>
+         <td className='hidden md:table-cell'>{item.grade}</td>
          <td className='hidden md:table-cell'>{item.phone}</td>
          <td className='hidden md:table-cell'>{item.address}</td>
          <td>
