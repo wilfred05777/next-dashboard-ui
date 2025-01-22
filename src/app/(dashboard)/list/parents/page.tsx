@@ -72,7 +72,7 @@ const ParentListPage = () => {
                {/* <Link href={`/list/Students/${item.id}`}> */}
                <Link href={`/list/Students/${item.id}`}>
                   <button className='w-7 h-7 flex items-center justify-center rounded-full bg-erdoSky'>
-                     <Image src='/view.png' alt='' width={16} height={16} />
+                     <Image src='/edit.png' alt='' width={16} height={16} />
                   </button>
                   {/* resolves the issue of the two button display flex column instead of row display */}
                </Link>
